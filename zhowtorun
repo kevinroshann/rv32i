@@ -1,0 +1,5 @@
+iverilog -o output.vvp my_design.v my_testbench.v
+
+vvp output.vvp
+
+gtkwave dump.vcd
